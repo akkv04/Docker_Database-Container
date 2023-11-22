@@ -1,0 +1,18 @@
+For database use Postgres image and for web app - node image is used
+
+>> volume mounting- volume is created automatically when doing volume mounting
+
+Environmental variables format:
+
+***There are 2 formats while writing environmental variables. those are.
+environment:
+  - POSTGRES_USER=your_user
+  - POSTGRES_PASSWORD=your_password
+  - POSTGRES_DB=your_database
+
+or
+
+environment:
+  POSTGRES_USER: your_user
+  POSTGRES_PASSWORD: your_password
+  POSTGRES_DB: your_database
