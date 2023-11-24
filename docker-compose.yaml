@@ -16,7 +16,7 @@ services:
     ports:
       - 3000:3000
     environment:
-      - DATABASE_URL: postgres://akhil:akhil123@postgres_db:5432/testdb
+      DATABASE_URL: postgres://akhil:akhil123@postgres_db:5432/testdb
     depends_on:
       - postgres_db
 volumes: 
